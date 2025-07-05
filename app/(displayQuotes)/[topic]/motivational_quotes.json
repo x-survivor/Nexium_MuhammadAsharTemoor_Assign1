@@ -1,0 +1,74 @@
+{
+  "quotes": {
+    "success": [
+      {
+        "quote": "People who succeed have momentum. The more they succeed, the more they want to succeed.",
+        "author": "Azim Premji"
+      },
+      {
+        "quote": "The best way to find yourself is to lose yourself in the service of others.",
+        "author": "Mahatma Gandhi"
+      },
+      {
+        "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+        "author": "Winston Churchill"
+      }
+    ],
+    "focus": [
+      {
+        "quote": "You have to dream before your dreams can come true.",
+        "author": "Dr. A.P.J. Abdul Kalam"
+      },
+      {
+        "quote": "Concentrate all your thoughts upon the work in hand. The sun's rays do not burn until brought to a focus.",
+        "author": "Alexander Graham Bell"
+      },
+      {
+        "quote": "The successful warrior is the average man, with laser-like focus.",
+        "author": "Bruce Lee"
+      }
+    ],
+    "growth": [
+      {
+        "quote": "Be not afraid of growing slowly, be afraid only of standing still.",
+        "author": "Chinese Proverb"
+      },
+      {
+        "quote": "Strength and growth come only through continuous effort and struggle.",
+        "author": "Napoleon Hill"
+      },
+      {
+        "quote": "Dream, dream, dream. Dreams transform into thoughts and thoughts result in action.",
+        "author": "Dr. A.P.J. Abdul Kalam"
+      }
+    ],
+    "learning": [
+      {
+        "quote": "A person who never made a mistake never tried anything new.",
+        "author": "Albert Einstein"
+      },
+      {
+        "quote": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+        "author": "Mahatma Gandhi"
+      },
+      {
+        "quote": "Education is the passport to the future, for tomorrow belongs to those who prepare for it today.",
+        "author": "Malcolm X"
+      }
+    ],
+    "motivation": [
+      {
+        "quote": "Let us sacrifice our today so that our children can have a better tomorrow.",
+        "author": "Dr. A.P.J. Abdul Kalam"
+      },
+      {
+        "quote": "Push yourself, because no one else is going to do it for you.",
+        "author": "Unknown"
+      },
+      {
+        "quote": "Your time is limited, so don't waste it living someone else's life.",
+        "author": "Steve Jobs"
+      }
+    ]
+  }
+}
