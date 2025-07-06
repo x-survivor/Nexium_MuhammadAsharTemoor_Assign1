@@ -27,7 +27,23 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <main className="flex flex-wrap-reverse min-h-screen items-center justify-around p-24 bg-radial from-gray-850 via-gray-950 to-gray-950">
+          <div className="w-1/2 p-8">
+            <h1 className="text-4xl uppercase font-bold bg-gradient-to-r from-pink-800 via-red-400 to-pink-500 mb-6 bg-clip-text text-transparent">
+              <span className="text-[6rem]">
+                Quotes <br />
+              </span>
+              Generator
+            </h1>
+            <p className="text-lg text-gray-300 mb-4">
+              This is a simple Next.js application with a custom input
+              component.
+            </p>
+          </div>
+          <div className="w-1/2 flex items-center justify-center">
+            {children}
+          </div>
+        </main>
       </body>
     </html>
   );
