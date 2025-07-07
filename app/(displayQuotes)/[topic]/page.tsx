@@ -1,15 +1,12 @@
 import quotes from "./motivational_quotes.json";
 type Topic = "success" | "focus" | "growth" | "learning" | "motivation";
-type ContactFormProps = {
-  topic: Topic;
-};
 
-export default async function displayQuotes({
+export default function displayQuotes({
   params,
 }: {
-  params: ContactFormProps;
+  params: {topic: Topic };
 }) {
-  const topic = await params;
+  const topic = params;
   const topicQuotes = quotes["quotes"][topic.topic]?.filter(
     (quote: { quote: string; author: string }) => quote.quote && quote.author
   );
