@@ -1,3 +1,4 @@
+
 import quotes from "./motivational_quotes.json";
 type Topic = "success" | "focus" | "growth" | "learning" | "motivation";
 
@@ -12,23 +13,25 @@ export default async function displayQuotes({
   );
   if (!topicQuotes || topicQuotes.length === 0) {
     return (
-      <div className="w-full">
+      <div>
         <div className="w-full p-8 text-center">
-          Quotes not found for the topic: {topic.topic}
+          Quotes not found for the topic: "{topic.topic}"
         </div>
       </div>
     );
   }
   return (
-    <div className="w-full">
-      <div className="w-full p-8 text-center">
+    <section className="w-3/4">
+      <article className="p-8 text-center">
         {topicQuotes.map((quote: { quote: string; author: string }) => (
-          <div key={quote.quote} className="mb-4">
-            <p className="text-lg text-gray-300 mb-2">{quote.quote}</p>
-            <p className="text-sm text-gray-500">- {quote.author}</p>
+          <div key={quote.quote} className="mb-4 p-3 rounded-md bg-gray-900">
+              <p className="text-gray-300 text-lg mb-2">"{quote.quote}"</p>
+            <span className="font-semibold">
+              <p className="text-gray-500 text-sm">- {quote.author}</p>
+            </span>
           </div>
         ))}
-      </div>
-    </div>
+      </article>
+    </section>
   );
 }

@@ -17,13 +17,14 @@ export default function InputTopic() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    window.location.href = `/${formData.topic}`;
+    location.href = `/${formData.topic}`; 
   };
 
   return (
-    <form
+    <article className="w-1/2">
+      <form
       onSubmit={handleSubmit}
-      className="flex justify-between max-w-full space-x-4 w-full mx-auto p-6 border rounded-xl shadow-sm"
+      className="flex justify-between max-w-full space-x-4 w-full mx-auto p-6 border border-pink-950 rounded-xl shadow-md"
     >
       <Input
         id="topic"
@@ -36,8 +37,9 @@ export default function InputTopic() {
       />
 
       <Button type="submit" className="w-1/4">
-        Submit
+        Get Quotes
       </Button>
     </form>
+    </article>
   );
 }
