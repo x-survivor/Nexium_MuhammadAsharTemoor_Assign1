@@ -4,7 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 
-export default function topic_Input() {
+export default function InputTopic() {
   const [formData, setFormData] = useState({
     topic: "",
   });
