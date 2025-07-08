@@ -1,4 +1,4 @@
-import InputTopic from "@/components/ui/topic_Input";
+import InputTopic from "@/components/ui/TopicForm";
 
 export default function Home() {
   return (

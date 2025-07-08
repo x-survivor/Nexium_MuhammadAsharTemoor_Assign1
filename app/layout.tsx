@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html className="dark" lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`} 
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <main className="flex flex-col min-h-screen items-center justify-center p-24 bg-radial from-gray-900 via-gray-950 to-gray-950">
           <div className="text-center flex flex-col items-center justify-center">
@@ -33,8 +33,7 @@ export default function RootLayout({
               Quotes Generator
             </h1>
             <p className="text-lg text-gray-300 mb-4">
-              This is a simple Next.js application with a custom input
-              component.
+              Stay Motivated with the Words of Wise People.
             </p>
           </div>
           <div className="w-full flex items-center justify-center">
