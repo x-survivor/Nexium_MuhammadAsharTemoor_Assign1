@@ -21,10 +21,10 @@ export default function InputTopic() {
   };
 
   return (
-    <article className="w-1/2">
+    <article className="sm:w-2/3 lg:w-1/2">
       <form
       onSubmit={handleSubmit}
-      className="flex justify-between max-w-full space-x-4 w-full mx-auto p-6 border border-pink-950 rounded-xl shadow-md"
+      className="flex-col flex justify-between max-w-full md:flex-row space-y-4 md:space-y-0 md:space-x-4 w-full mx-auto p-6 border border-pink-950 rounded-xl shadow-md"
     >
       <Input
         id="topic"
@@ -33,10 +33,10 @@ export default function InputTopic() {
         value={formData.topic}
         onChange={handleChange}
         placeholder="Enter your topic here"
-        className="w-3/4 text-white placeholder-gray-500 border border-gray-700 focus:border-blue-500 focus:ring-blue-500 focus:ring-1"
+        className="w-full md:w-3/4 text-white placeholder-gray-500 border border-gray-700 focus:border-blue-500 focus:ring-blue-500 focus:ring-1"
       />
 
-      <Button type="submit" className="w-1/4">
+      <Button type="submit" className="w-full md:w-1/4">
         Get Quotes
       </Button>
     </form>

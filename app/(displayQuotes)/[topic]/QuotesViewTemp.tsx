@@ -1,6 +1,6 @@
 export function template(data: {q: string, a: string}[]) {
   return (
-    <section className="w-3/4">
+    <section className="sm:w-full lg:w-3/4">
       <article className="p-8 text-center">
         {data.map((quote: { q: string; a: string }) => (
           <div key={quote.q} className="mb-4 p-3 rounded-md bg-gray-900">

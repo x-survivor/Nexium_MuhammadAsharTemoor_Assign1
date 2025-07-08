@@ -27,12 +27,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <main className="flex flex-col min-h-screen items-center justify-center p-24 bg-radial from-gray-900 via-gray-950 to-gray-950">
+        <main className="flex flex-col min-h-screen items-center justify-center p-5 sm:p-10 md:p-24 bg-radial from-gray-900 via-gray-950 to-gray-950">
           <div className="text-center flex flex-col items-center justify-center">
-            <h1 className="text-[5rem] uppercase font-bold bg-gradient-to-r from-pink-800 via-red-400 to-pink-500  bg-clip-text text-transparent">
+            <h1 className="text-[2rem] md:text-[3rem] lg:text-[5rem] uppercase font-bold bg-gradient-to-r from-pink-800 via-red-400 to-pink-500  bg-clip-text text-transparent">
               Quotes Generator
             </h1>
-            <p className="text-lg text-gray-300 mb-4">
+            <p className="text-[12px] md:text-lg text-gray-300 mb-4">
               Stay Motivated with the Words of Wise People.
             </p>
           </div>
